@@ -259,8 +259,9 @@
         </script>
 
         <footer class="copyright">
-            <p>Desgin &amp; Created by Ernesto L Zanabria</p>
-            <p>Copyright &copy; 2022, All Right Reserve</p>
+            <p>Desgin &amp; Build by Ernesto L Zanabria</p>
+            <p>Copyright &copy; <span id="year"></span>, All Right Reserve</p>
         </footer>
+        <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
     </body>
 </html>
