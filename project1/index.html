@@ -281,8 +281,9 @@
         </section>
 
         <footer class="copyright">
-            <p>Design &amp; Created by Ernesto L Zanabria</p>
-            <p>Copyright &copy; 2022, All Rights Reserve</p>
-        </footer>
+			<p>Designed &amp; Build by Ernesto L Zanabria</p>
+			<p>Copyright &copy; <span id="year"></span>, All Rights Reserved</p>
+		</footer><!-- End of footer. -->
+		<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
     </body>
 </html>
